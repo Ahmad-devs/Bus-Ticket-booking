@@ -34,4 +34,4 @@ jobs:
       run: npm install --global surge
   
     - name: deploying using surge
-      run: surge ./ bus-book.surge.sh// --token ${{ secrets.JS_TOKEN }}
+      run: surge ./ bus-book.surge.sh/ --token ${{ secrets.JS_TOKEN }}
